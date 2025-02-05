@@ -1,5 +1,9 @@
 <template>
-  <div class="container"></div>
+  <div>
+    <h2>
+      {{ foodName }}
+    </h2>
+  </div>
 </template>
 
 <script setup></script>

@@ -4,62 +4,62 @@ const products = {
   icecream: [
     {
       name: 'Berry Cone',
-      src: '/public/berrycone.png',
+      src: '/berrycone.png',
       cost: 4,
     },
     {
       name: 'Chocolate Bar',
-      src: '/public/chocolatebar.png',
+      src: '/chocolatebar.png',
       cost: 3.5,
     },
     {
       name: 'ChocoChip Sandwich',
-      src: '/public/chocolatechipsandwich.png',
+      src: '/chocolatechipsandwich.png',
       cost: 2.5,
     },
     {
       name: 'Chocolate Cone',
-      src: '/public/chocolatecone.png',
+      src: '/chocolatecone.png',
       cost: 2.5,
     },
     {
       name: 'Cookie',
-      src: '/public/cookie.png',
+      src: '/cookie.png',
       cost: 2.0,
     },
     {
       name: 'Mint Chocolate Cone',
-      src: '/public/mintchoco.png',
+      src: '/mintchoco.png',
       cost: 4.0,
     },
     {
       name: 'Mixed Cone',
-      src: '/public/mixcone.png',
+      src: '/mixcone.png',
       cost: 4.5,
     },
     {
-      name: 'Qaudruple Scoop',
-      src: '/public/quadruplescoop.png',
+      name: 'Quadruple Scoop',
+      src: '/quadruplescoop.png',
       cost: 5.0,
     },
     {
       name: 'Strawberry Cone',
-      src: '/public/strawberrycone.png',
+      src: '/strawberrycone.png',
       cost: 3.5,
     },
     {
       name: 'Twix Bar',
-      src: '/public/twixbar.png',
+      src: '/twixbar.png',
       cost: 2.5,
     },
     {
       name: 'Vanilla Cone',
-      src: '/public/vanillacone.png',
+      src: '/vanillacone.png',
       cost: 3.5,
     },
     {
       name: 'Waffle',
-      src: '/public/waffle.png',
+      src: '/waffle.png',
       cost: 4.5,
     },
   ],
@@ -69,3 +69,5 @@ const store = reactive({
   Inventory: [],
   Total: 0,
 })
+
+export default store
