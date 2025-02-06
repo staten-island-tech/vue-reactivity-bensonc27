@@ -3,6 +3,7 @@
     <h2>
       {{ foodName }}
     </h2>
+    <p></p>
   </div>
 </template>
 
