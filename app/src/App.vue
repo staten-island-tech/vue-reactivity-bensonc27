@@ -68,12 +68,13 @@ const products = ref([
 <template>
   <div>
     <Card v-for="product in products" :key="product.name" :product="product" />
+    <button @click="console.log(products)">Add to Cart</button>
   </div>
 </template>
 
 <style>
 .product-image {
-  width: 30%;
+  width: 20%;
   height: auto;
 }
 </style>

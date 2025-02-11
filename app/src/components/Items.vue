@@ -5,6 +5,7 @@
     </h2>
     <p>${{ product.cost }}</p>
     <img :src="product.src" class="product-image" />
+    <slot></slot>
   </div>
 </template>
 
@@ -16,4 +17,4 @@ defineProps({
 })
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"></style>
