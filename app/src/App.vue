@@ -5,7 +5,7 @@ const products = ref([
   {
     name: 'Berry Cone',
     src: '/berrycone.png',
-    cost: 4,
+    cost: 4.0,
   },
   {
     name: 'Chocolate Bar',
@@ -70,6 +70,7 @@ const products = ref([
     <Card v-for="product in products" :key="product.name" :product="product" />
     <button @click="console.log(products)">Add to Cart</button>
   </div>
+  <Cart :cart="carts"></Cart>
 </template>
 
 <style>
