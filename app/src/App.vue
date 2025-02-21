@@ -66,9 +66,14 @@ const products = ref([
 </script>
 
 <template>
-  <div class="container flex items-center justify-evenly flex-wrap">
-    <div class="Cardcont flex flex-wrap">
-      <Card class="flex w-1/4" v-for="product in products" :key="product.name" :product="product" />
+  <div class="flex">
+    <div class="flex justify-evenly flex-wrap gap-4 mx-auto">
+      <Card
+        class="mt-2 w-1/5 p-2 border-4 shadow-md"
+        v-for="product in products"
+        :key="product.name"
+        :product="product"
+      />
       <button @click="console.log(products)">Add to Cart</button>
     </div>
   </div>

@@ -1,11 +1,10 @@
 <template>
   <div>
-    <h2>
+    <h2 class="text-center text-xl">
       {{ product.name }}
     </h2>
-    <p>${{ product.cost }}</p>
-    <img :src="product.src" class="product-image" />
-    <slot></slot>
+    <img class="w-[75%] h-[85%] object-cover m-auto" :src="product.src" />
+    <p class="text-center text-m">${{ product.cost }}</p>
   </div>
 </template>
 
