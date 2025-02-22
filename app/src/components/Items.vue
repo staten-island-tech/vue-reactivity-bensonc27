@@ -5,6 +5,7 @@
     </h2>
     <img class="w-[75%] h-[85%] object-cover m-auto" :src="product.src" />
     <p class="text-center text-m">${{ product.cost }}</p>
+    <button @click="!cart == cart">Add to Cart</button>
   </div>
 </template>
 
