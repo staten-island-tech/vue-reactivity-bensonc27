@@ -115,7 +115,7 @@ let totalCost = ref(0)
   <h1 class="text-center text-4xl font-bold text-[#1E3A5F]">Icecream Store</h1>
   <div class="flex justify-center p-4">
     <div class="w-1/5 bg-[#F5F5DC] rounded-lg shadow-lg p-6">
-      <h2 class="text-center text-2xl font-semibold text-[#4F4F4F] text-xl mb-4">Shopping Cart</h2>
+      <h2 class="text-center text-2xl font-semibold text-[#4F4F4F] mb-4">Shopping Cart</h2>
       <p class="text-center text-m">Total: ${{ totalCost }}</p>
       <Cart class="m-auto w-[50%] h-[40%]" :cartItems="cartItems" :removeCard="removeCard" />
     </div>
